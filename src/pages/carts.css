@@ -1,0 +1,18 @@
+.carts-container {
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin:auto;
+    box-shadow: 0 0 0.25rem gray;
+    text-align: center;
+}
+
+.carts-itemps-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    overflow-y: auto;
+    height: 560px;
+    align-items: start;
+
+}
